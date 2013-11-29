@@ -1,0 +1,37 @@
+<div class="main-container-inner">
+  <a class="menu-toggler" id="menu-toggler" href="#">
+    <span class="menu-text"></span>
+  </a>
+
+    <div class="sidebar" id="sidebar">
+    <script type="text/javascript">
+        try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+    </script>
+
+
+    <ul class="nav nav-list">
+
+      <%= render 'layouts/ordersSidebar' %>
+
+
+
+
+
+    </ul><!-- /.nav-list -->
+
+    <div class="sidebar-collapse" id="sidebar-collapse">
+      <i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>
+    </div>
+
+    <script type="text/javascript">
+        try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+
+        $(".nav-list > li .category").height($(window).height()*0.5);
+
+        $(window).resize(function(){
+            $(".nav-list > li .category").height($(this).height()*0.5);
+        });
+    </script>
+    </div>
+
+</div>

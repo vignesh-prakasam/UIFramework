@@ -1,0 +1,74 @@
+<li>
+
+  <a href="#" class="dropdown-toggle">
+    <label>
+      <input name="form-field-checkbox" class="ace ace-checkbox-2" type="checkbox">
+      <span class="lbl"></span>
+    </label>
+    <%= if defined? company
+            company
+        else
+            company = 'company N/A'
+        end %>
+    <i class="icon-angle-down icon-on-right"></i>
+    <br /><span class="text-muted">
+
+  <%= if defined? orderNum
+        orderNum
+      else
+        orderNum = 'order N/A'
+      end %>
+
+  </span>
+    <div class="order-buttons pull-right">
+      <b class="label label-success arrowed-right pull-right">
+        View
+      </b>
+    </div>
+  </a>
+
+  <ul class="submenu">
+    <li>
+      <a href="#">
+        <i class="fa fa-calendar"></i>
+
+        <%= if defined? date
+              date
+            else
+              date = 'date N/A'
+            end %>
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="dropdown-toggle">
+        <i class="fa fa-ellipsis-v"></i>
+
+        Options
+        <b class="arrow icon-angle-down"></b>
+      </a>
+
+      <ul class="submenu">
+        <li>
+          <a href="#">
+            <i class="icon-pencil"></i>
+            Rename
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa fa-files-o"></i>
+            Clone
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-trash-o"></i>
+            Delete
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>

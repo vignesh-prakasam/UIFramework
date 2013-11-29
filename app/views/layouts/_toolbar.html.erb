@@ -1,0 +1,109 @@
+<div class="toolbar sidebar-shortcuts" id="sidebar-shortcuts">
+    <div class="sidebar-shortcuts-large pull-right" id="sidebar-shortcuts-large">
+
+
+      <button class="btn btn-warning tooltip-warning" data-rel="tooltip" title="" data-original-title="Edit" data-placement="bottom">
+        <i class="fa fa-edit"></i>
+      </button>
+
+      <div class="btn-group">
+        <button data-toggle="dropdown" class="btn btn-sm btn-danger dropdown-toggle tooltip-error" data-rel="tooltip" title="" data-original-title="Delete" data-placement="bottom">
+          <i class="fa fa-trash-o"></i>
+
+        </button>
+
+        <div class="dropdown-menu dropdown-danger dropdown-padding delete">
+          <p>Are you sure you want to delete this item?</p>
+          <button type="button" class="btn btn-sm btn-danger delete-confirm" data-toggle="button">Delete</button>
+          <button type="button" class="btn btn-sm btn-primary" data-toggle="button">Cancel</button>
+        </div>
+      </div>
+
+
+      <button class="btn btn-inverse archive" data-rel="tooltip" title="" data-original-title="Archive" data-placement="bottom">
+        <i class="fa fa-archive"></i>
+      </button>
+
+      <button class="btn btn-primary tooltip-info" data-rel="tooltip" title="" data-original-title="Clone" data-placement="bottom">
+        <i class="fa fa-copy"></i>
+      </button>
+
+
+      <div class="btn-group">
+        <button data-toggle="dropdown" class="btn btn-sm dropdown-toggle" data-rel="tooltip" title="" data-original-title="Email" data-placement="bottom">
+          <i class="fa fa-envelope"></i>
+
+        </button>
+
+        <div class="dropdown-menu dropdown-danger pull-right dropdown-padding email">
+          <p>Who would you like to send this to?</p>
+          <div class="input-group">
+            <input type="text" class="form-control search-query" placeholder="example@anpi.com">
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-sm">
+                      Send
+                      <i class="fa fa-envelope"></i>
+                    </button>
+                </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</div>
+
+<script>
+
+    $('.archive').on('click', function(){
+        $.gritter.add({
+            title: 'Archived',
+            text: 'Order O-123456 has been archived. <button class="btn btn-xs pull-right">Undo  <i class="fa fa-undo"></i></button>',
+            sticky: false,
+            time: '',
+            class_name: 'gritter-light'
+        });
+
+        return false;
+    });
+
+    $('.delete-confirm').on('click', function(){
+        $.gritter.add({
+            title: 'Deleted',
+            text: 'Order O-123456 has been moved to the trash. <button class="btn btn-xs pull-right">Undo  <i class="fa fa-undo"></i></button>',
+            sticky: false,
+            time: '',
+            class_name: 'gritter-light'
+        });
+
+        return false;
+    });
+
+
+
+
+    /* $(".delete").click(function() {
+        bootbox.dialog({
+            message: "Are you sure you wish to delete this order?",
+            title: "Delete Order",
+            buttons: {
+                main: {
+                    label: "DELETE",
+                    className: "btn-danger",
+                    callback: function() {
+                        Example.show("uh oh, look out!");
+                    }
+                },
+                cancel: {
+                    label: "Cancel",
+                    className: "btn-primary",
+                    callback: function() {
+                        Example.show("Primary button");
+                    }
+                }
+            }
+        });
+    });  */
+
+
+</script>

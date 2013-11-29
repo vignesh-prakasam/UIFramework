@@ -1,0 +1,1586 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-29 16:33:33 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered vendor/bundle/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 57ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-29 16:47:52 +0530
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__1049922532497223097__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-29 16:48:02 +0530
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:379:in `check_pending!'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:366:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__1049922532497223097__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+  [1m[36m (17.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20131129111714)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "userid" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131129111714"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-29 16:48:25 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered vendor/bundle/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 37ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-29 16:48:31 +0530
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 89ms
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.effect-blind'
+  (in /Volumes/CodeZone/RailsProjects/UIFramework/app/assets/javascripts/application.js:16)):
+     5:   <title>ANPI VIP Online</title>
+     6:   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+     7: 
+     8:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+     9:   <%= csrf_meta_tags %>
+    10: 
+    11:   <meta name="description" content="overview &amp; stats" />
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4978671511897798_70181758177040'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-29 16:58:51 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#create as HTML
+Completed 400 Bad Request in 67ms
+
+ActionController::ParameterMissing (param not found: user):
+  app/controllers/users_controller.rb:72:in `user_params'
+  app/controllers/users_controller.rb:27:in `create'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-29 16:59:47 +0530
+Processing by UsersController#create as HTML
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (53.7ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Fri, 29 Nov 2013 11:29:47 UTC +00:00], ["updated_at", Fri, 29 Nov 2013 11:29:47 UTC +00:00]]
+  [1m[35m (9.9ms)[0m  commit transaction
+Redirected to http://localhost:3002/users/1
+Completed 302 Found in 121ms (ActiveRecord: 64.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-11-29 16:59:47 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3394ms (Views: 3391.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/jquery.gritter.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/addresses.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/dids.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/main/address.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/order_controller.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/order_form.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/payments.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/service_checks.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/settings.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/typeahead-bs2.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/fuelux/fuelux.wizard.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/jquery.maskedinput.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/additional-methods.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/select2.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/ace-elements.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/ace.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/jquery.slimscroll.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/dropzone.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/addresses.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/dids.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/main/address.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/order_controller.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/order_form.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/payments.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:51 +0530
+
+
+Started GET "/assets/service_checks.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/settings.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/uncompressed/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/ace-fonts.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/ace.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/ace-rtl.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/uncompressed/ace-skins.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/jquery.gritter.css?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/flot/jquery.flot.min.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-29 16:59:52 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2013-11-29 16:59:53 +0530
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-29 16:59:56 +0530
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-11-29 16:59:58 +0530
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (68.9ms)
+  Rendered users/new.html.erb within layouts/application (81.8ms)
+Completed 200 OK in 183ms (Views: 182.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-11-29 17:00:08 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hWjK8i+fOQG5DlvNuVCqH2KAjR48/2k5sgdfDDCDqjM=", "user"=>{"userid"=>"safda", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Fri, 29 Nov 2013 11:30:08 UTC +00:00], ["updated_at", Fri, 29 Nov 2013 11:30:08 UTC +00:00]]
+  [1m[36m (13.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3002/users/2
+Completed 302 Found in 17ms (ActiveRecord: 14.1ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2013-11-29 17:00:08 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+  Rendered layouts/_topbar.html.erb (0.4ms)
+  Rendered layouts/_ordersSidebar.html.erb (0.6ms)
+  Rendered layouts/_sidebar.html.erb (1.7ms)
+  Rendered layouts/_steps.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 299ms (Views: 290.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/jquery.gritter.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/addresses.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/dids.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:03 +0530
+
+
+Started GET "/assets/order_form.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/main/address.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/order_controller.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/payments.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/service_checks.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/settings.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/typeahead-bs2.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/fuelux/fuelux.wizard.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/additional-methods.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/jquery.maskedinput.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/select2.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/ace-elements.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/ace.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/dropzone.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/jquery.slimscroll.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/flot/jquery.flot.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/addresses.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/dids.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/main/address.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/order_controller.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/order_form.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/payments.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/service_checks.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/uncompressed/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/ace-rtl.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/ace-fonts.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/ace.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/uncompressed/ace-skins.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/jquery.gritter.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/settings.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/users/assets/anpi-logo.png" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+ActionController::RoutingError (No route matches [GET] "/users/assets/anpi-logo.png"):
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.1ms)
+
+
+Started GET "/assets/ace-extra.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/users/assets/avatars/user.jpg" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+ActionController::RoutingError (No route matches [GET] "/users/assets/avatars/user.jpg"):
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.5ms)
+
+
+Started GET "/users/assets/anpi-logo.png" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+ActionController::RoutingError (No route matches [GET] "/users/assets/anpi-logo.png"):
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.6ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-11-29 17:03:04 +0530
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-29 17:03:23 +0530
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+  Rendered layouts/_topbar.html.erb (0.4ms)
+  Rendered layouts/_ordersSidebar.html.erb (0.5ms)
+  Rendered layouts/_sidebar.html.erb (1.5ms)
+  Rendered layouts/_steps.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 139ms (Views: 137.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/anpi-logo.png" for 127.0.0.1 at 2013-11-29 17:03:23 +0530
+
+
+Started GET "/assets/avatars/user.jpg" for 127.0.0.1 at 2013-11-29 17:03:23 +0530
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-11-29 17:03:25 +0530
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.2ms)
+  Rendered users/new.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navbar.html.erb (0.1ms)
+  Rendered layouts/_topbar.html.erb (0.1ms)
+  Rendered layouts/_ordersSidebar.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.7ms)
+  Rendered layouts/_steps.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 101ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/assets/anpi-logo.png" for 127.0.0.1 at 2013-11-29 17:03:25 +0530
+
+ActionController::RoutingError (No route matches [GET] "/users/assets/anpi-logo.png"):
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.2ms)
+
+
+Started GET "/users/assets/avatars/user.jpg" for 127.0.0.1 at 2013-11-29 17:03:26 +0530
+
+ActionController::RoutingError (No route matches [GET] "/users/assets/avatars/user.jpg"):
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-29 17:03:28 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+  Rendered layouts/_topbar.html.erb (0.1ms)
+  Rendered layouts/_ordersSidebar.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_steps.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-29 17:05:40 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (13.9ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (23.3ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+  Rendered layouts/_topbar.html.erb (0.6ms)
+  Rendered layouts/_singleOrder.html.erb (0.6ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.6ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_ordersSidebar.html.erb (16.8ms)
+  Rendered layouts/_sidebar.html.erb (17.9ms)
+  Rendered layouts/_steps.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1130ms (Views: 1084.5ms | ActiveRecord: 14.1ms)
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery.gritter.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/addresses.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/dids.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/main/address.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/order_controller.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/payments.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/order_form.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/service_checks.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/settings.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/typeahead-bs2.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/fuelux/fuelux.wizard.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/additional-methods.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery.maskedinput.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/select2.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/ace-elements.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/ace.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery.slimscroll.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/addresses.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/dids.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/main/address.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/order_controller.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/order_form.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/payments.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/service_checks.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/settings.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/uncompressed/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/ace-fonts.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/ace.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/jquery.gritter.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/uncompressed/ace-skins.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/ace-rtl.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/dropzone.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/flot/jquery.flot.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/ace-extra.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/anpi-logo.png" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/avatars/avatar.png" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/avatars/avatar3.png" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/avatars/avatar4.png" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/assets/avatars/user.jpg" for 127.0.0.1 at 2013-11-29 17:05:42 +0530
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-29 17:06:05 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+  Rendered layouts/_topbar.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_ordersSidebar.html.erb (11.5ms)
+  Rendered layouts/_sidebar.html.erb (12.4ms)
+  Rendered layouts/_steps.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 98ms (Views: 96.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery.gritter.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/addresses.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/dids.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/main/address.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/order_form.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/payments.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/order_controller.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/map.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/service_checks.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/settings.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/fuelux/fuelux.wizard.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/additional-methods.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery.maskedinput.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/typeahead-bs2.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/select2.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/ace-elements.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/ace.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery.slimscroll.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/bootbox.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/chosen.jquery.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/dropzone.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/flot/jquery.flot.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/addresses.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/login.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/dids.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/main/address.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/map.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/order_controller.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/order_form.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/payments.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/service_checks.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/settings.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/ace-fonts.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/uncompressed/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/ace.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/uncompressed/ace-skins.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/ace-rtl.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/jquery.gritter.css?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/ace-extra.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/anpi-logo.png" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/avatars/avatar.png" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/avatars/avatar3.png" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/avatars/avatar4.png" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/avatars/user.jpg" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2013-11-29 17:06:06 +0530
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-29 17:07:44 +0530
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+WARNING on line 50 of /Volumes/CodeZone/RailsProjects/UIFramework/app/assets/stylesheets/scaffolds.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+WARNING on line 51 of /Volumes/CodeZone/RailsProjects/UIFramework/app/assets/stylesheets/scaffolds.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+  Rendered layouts/_navbar.html.erb (0.1ms)
+  Rendered layouts/_topbar.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.1ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_singleOrder.html.erb (0.0ms)
+  Rendered layouts/_ordersSidebar.html.erb (11.0ms)
+  Rendered layouts/_sidebar.html.erb (11.8ms)
+  Rendered layouts/_steps.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2335ms (Views: 2333.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/addresses.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/jquery.gritter.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/dids.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/order_controller.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/service_checks.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/typeahead-bs2.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/payments.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/fuelux/fuelux.wizard.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/settings.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/jquery.validate.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/jquery.maskedinput.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/additional-methods.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/ace.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/select2.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/ace-elements.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/jquery.ui.touch-punch.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/addresses.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/dids.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/order_controller.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/payments.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/service_checks.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/settings.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/uncompressed/font-awesome.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/ace-fonts.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/ace.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/ace-rtl.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/uncompressed/ace-skins.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/styles.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:47 +0530
+
+
+Started GET "/assets/jquery.gritter.css?body=1" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+
+Started GET "/assets/jquery.slimscroll.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+
+Started GET "/assets/ace-extra.min.js?body=1" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+
+Started GET "/assets/anpi-logo.png" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+
+Started GET "/assets/avatars/avatar.png" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+
+Started GET "/assets/avatars/avatar3.png" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+
+Started GET "/assets/avatars/user.jpg" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+
+Started GET "/assets/avatars/avatar4.png" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+
+Started GET "/fonts/fontawesome-webfont.woff" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.woff"):
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (19.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (44.8ms)
+
+
+Started GET "/fonts/fontawesome-webfont.ttf" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.ttf"):
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/fonts/fontawesome-webfont.svg" for 127.0.0.1 at 2013-11-29 17:07:48 +0530
+
+ActionController::RoutingError (No route matches [GET] "/fonts/fontawesome-webfont.svg"):
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/vignesh/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.2ms)
