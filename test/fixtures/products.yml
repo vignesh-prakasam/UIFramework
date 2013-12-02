@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company: MyString
+  netx_id: 1
+  product_type: MyString
+  description: MyString
+  price: MyString
+  list_price: MyString
+  category: MyString
+  default_row: MyString
+  add_on: MyString
+  did_required: MyString
+  device_optional: MyString
+  recommended_phone_model_id: MyString
+  available: MyString
+
+two:
+  company: MyString
+  netx_id: 1
+  product_type: MyString
+  description: MyString
+  price: MyString
+  list_price: MyString
+  category: MyString
+  default_row: MyString
+  add_on: MyString
+  did_required: MyString
+  device_optional: MyString
+  recommended_phone_model_id: MyString
+  available: MyString

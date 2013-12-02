@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  order_number: MyString
+  tax_price: MyString
+  shipping_price: MyString
+  gross_price: MyString
+  promotion_id: MyString
+  net_price: MyString
+  address_id: MyString
+
+two:
+  order_number: MyString
+  tax_price: MyString
+  shipping_price: MyString
+  gross_price: MyString
+  promotion_id: MyString
+  net_price: MyString
+  address_id: MyString

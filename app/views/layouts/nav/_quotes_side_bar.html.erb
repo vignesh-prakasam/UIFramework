@@ -1,0 +1,19 @@
+<div class="orders-search">
+    <form class="form-search pull-left">
+       <span class="input-icon">
+           <input type="text" placeholder="Search Orders..." class="nav-search-input" id="nav-search-input" autocomplete="off">
+           <i class="icon-search nav-search-icon"></i>
+       </span>
+    </form>
+</div>
+<li class="active">
+  <ul class="submenu category">
+    <%= render :partial => 'orders/quote_info', :locals => {:company => 'Facebook Inc.(Q)', :orderNum => 'O-535344', :date => 'February 2, 2014'} %>
+    <%= render :partial => 'orders/quote_info', :locals => {:company => 'Zynga Inc.(Q)', :orderNum => 'O-34543534', :date => 'March 15, 2014'} %>
+    <%= render :partial => 'orders/quote_info', :locals => {:company => 'Apple Inc.(Q)', :orderNum => 'O-5453', :date => 'June 10, 2014'} %>
+    <%= render :partial => 'orders/quote_info', :locals => {:company => 'ANPI(Q)', :orderNum => 'O-4444455', :date => 'November 5, 2014'} %>
+    <%= render :partial => 'orders/quote_info', :locals => {:company => 'Kroger(Q)', :orderNum => 'O-223334', :date => 'July 30, 2014'} %>
+    <%= render :partial => 'orders/quote_info' %>
+  </ul>
+</li>
+

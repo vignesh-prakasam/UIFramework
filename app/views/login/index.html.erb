@@ -1,0 +1,45 @@
+<div class="widget-box login">
+  <div class="widget-header">
+    <h4>Agent Portal</h4>
+  </div>
+
+  <div class="widget-body">
+    <div class="widget-main">
+      <form>
+        <div class="username">
+          <input type="text" class="input-lg input-xlarge" placeholder="Username">
+
+        </div>
+        <div class="password">
+          <input type="password" class="input-lg input-xlarge" placeholder="Password">
+
+        </div>
+        <div class="actions">
+          <label class="inline">
+            <input type="checkbox" class="ace">
+            <span class="lbl"> Remember Me</span>
+          </label>
+
+          <a href="/home" type="button" class="btn btn-info btn-sm pull-right">
+            <i class="icon-key bigger-110"></i>
+            Login
+          </a>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+    loginMarginTop();
+
+  $(window).resize(function(){
+      loginMarginTop();
+  });
+
+  function loginMarginTop(){
+      $(".login").css('margin-top', $(window).height()/2 - $('.login').outerHeight()*.7);
+
+  }
+</script>

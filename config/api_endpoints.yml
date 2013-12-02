@@ -1,0 +1,7 @@
+development:
+  address_verification_url: http://fabric01api01.anpinetwork.com/api
+  bsoft_api_url: http://10.7.3.22:8080/broker/api
+  shipping_quotes: http://fabric01tstap01.anpinetwork.com:8080/ANPIWebservices/webresources/
+
+production:
+  address_verification_url: http://fabric01api01.anpinetwork.com/api

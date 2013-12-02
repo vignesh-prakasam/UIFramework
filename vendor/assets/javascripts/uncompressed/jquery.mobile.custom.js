@@ -81,7 +81,7 @@ function createVirtualEvent( event, eventType ) {
 	oe = event.originalEvent;
 	props = $.event.props;
 
-	// addresses separation of $.event.props in to $.event.mouseHook.props and Issue 3280
+	// addresses_bkp separation of $.event.props in to $.event.mouseHook.props and Issue 3280
 	// https://github.com/jquery/jquery-mobile/issues/3280
 	if ( t.search( /^(mouse|click)/ ) > -1 ) {
 		props = mouseEventProps;

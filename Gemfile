@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
 gem 'mysql2'
 
 gem 'redis'
@@ -74,4 +74,3 @@ gem 'simple_form'
 
 gem "pdfkit"
 gem 'wkhtmltopdf-binary'
-

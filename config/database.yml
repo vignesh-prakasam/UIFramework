@@ -4,10 +4,18 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: mysql2
+  encoding: utf8
+  reconnect: true
+#  database: agent_portal
+  database: sr_agent_portal_dev_db
   pool: 5
-  timeout: 5000
+  username: ap_stage_user
+  password: abc&1234
+  host: 10.7.3.210
+#  username: root
+#  password: ''
+#  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -20,6 +28,6 @@ test:
 
 production:
   adapter: sqlite3
-  database: db/production.sqlite3
+  database: db/development.sqlite3
   pool: 5
   timeout: 5000

@@ -5,14 +5,7 @@ html {
   position: relative;
 }
 body {
-  padding-bottom: 0;
-  /*background-color: #e4e6e9;
-  background-color: green;*/
-  min-height: 100%;
-  font-family: 'Open Sans';
-  font-size: 13px;
-  color: #393939;
-  line-height: 1.5;
+
 }
 body.navbar-fixed {
   padding-top: 45px;
@@ -1373,7 +1366,7 @@ blockquote.pull-right {
 .ace-nav .nav-user-photo {
   margin: -4px 8px 0 0;
   border-radius: 100%;
-  border: 2px solid #FFF;
+  border: 2px solid #d8dad5;
   max-width: 40px;
 }
 .ace-nav li:last-child a [class^="icon-"] {
@@ -1947,6 +1940,8 @@ li [class*=" icon-"],
   font-size: 13px;
   text-decoration: none;
 }
+
+
 .nav-list > li > a > [class*="icon-"]:first-child {
   display: inline-block;
   vertical-align: middle;
@@ -2852,19 +2847,19 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary,
 .btn-primary:focus {
-  background-color: #428bca !important;
-  border-color: #428bca;
+  background-color: #6ec3e7 !important;
+  border-color: #6ec3e7;
 }
 .btn-primary:hover,
 .open .btn-primary.dropdown-toggle {
   background-color: #1b6aaa !important;
-  border-color: #428bca;
+  border-color: #6ec3e7;
 }
 .btn-primary.no-border:hover {
   border-color: #1b6aaa;
 }
 .btn-primary.no-hover:hover {
-  background-color: #428bca !important;
+  background-color: #6ec3e7 !important;
 }
 .btn-primary.active {
   background-color: #2f7bba !important;
@@ -2889,8 +2884,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #428bca !important;
-  border-color: #428bca;
+  background-color: #6ec3e7 !important;
+  border-color: #6ec3e7;
 }
 .btn-info,
 .btn-info:focus {
@@ -4030,7 +4025,7 @@ fieldset[disabled] .btn-light.active {
 }
 .label-primary,
 .badge-primary {
-  background-color: #428bca !important;
+  background-color: #6ec3e7 !important;
 }
 .label-success,
 .badge-success {
@@ -4128,16 +4123,16 @@ fieldset[disabled] .btn-light.active {
   border-color: #3a87ad;
 }
 .label-primary.arrowed:before {
-  border-right-color: #428bca;
+  border-right-color: #6ec3e7;
 }
 .label-primary.arrowed-in:before {
-  border-color: #428bca;
+  border-color: #6ec3e7;
 }
 .label-primary.arrowed-right:after {
-  border-left-color: #428bca;
+  border-left-color: #6ec3e7;
 }
 .label-primary.arrowed-in-right:after {
-  border-color: #428bca;
+  border-color: #6ec3e7;
 }
 .label-success.arrowed:before {
   border-right-color: #82af6f;
@@ -4482,7 +4477,7 @@ fieldset[disabled] .btn-light.active {
 .dropdown-primary li.active a:hover,
 .dropdown-primary .dropdown-submenu:hover > a,
 .nav-tabs .dropdown-primary li > a:focus {
-  background: #428bca;
+  background: #6ec3e7;
   color: #ffffff;
 }
 .dropdown-success li a:hover,

@@ -40,17 +40,17 @@ jQuery(function($) {
         });
 
 
-    $('#skip-validation').removeAttr('checked').on('click', function() {
-        $validation = this.checked;
-        if (this.checked) {
-            $('#sample-form').hide();
-            $('#validation-form').removeClass('hide');
-        }
-        else {
-            $('#validation-form').addClass('hide');
-            $('#sample-form').show();
-        }
-    });
+//    $('#skip-validation').removeAttr('checked').on('click', function() {
+//        $validation = this.checked;
+//        if (this.checked) {
+//            $('#sample-form').hide();
+//            $('#validation-form').removeClass('hide');
+//        }
+//        else {
+//            $('#validation-form').addClass('hide');
+//            $('#sample-form').show();
+//        }
+//    });
 
     $.mask.definitions['~'] = '[+-]';
     $('.input-mask-date').mask('99/99/9999');

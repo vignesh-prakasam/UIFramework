@@ -1,0 +1,61 @@
+<div class='top'>
+  <div class="navbar navbar-default" id="navbar">
+    <script type="text/javascript">
+        try {
+            ace.settings.check('navbar', 'fixed')
+        } catch (e) {
+        }
+    </script>
+    <%= render 'layouts/nav/navbar' %>
+
+    <%= render 'layouts/nav/topbar' %>
+
+  </div>
+
+</div>
+
+<table>
+  <tr>
+    <td class="content">
+      <%= render 'layouts/map/map' %>
+    </td>
+    <td style="vertical-align:top">
+      <%= render 'layouts/nav/sidebar' %>
+    </td>
+  </tr>
+</table>
+
+<!-- basic scripts -->
+<!--[if !IE]>
+<%#= javascript_include_tag 'jquery-2.0.3.min' %>
+<![endif]-->
+
+<!--[if IE]>
+<%#= javascript_include_tag 'jquery-1.10.2.min' %>
+<![endif]-->
+
+<script type="text/javascript">
+    //if('ontouchend' in document) document.write("<script src='assets/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+</script>
+<!-- page specific plugin scripts -->
+
+
+<%= render 'layouts/nav/footer' %>
+
+
+<script>
+    $(".order-container").width($(this).width()-$(".sidebar").width()-80);
+
+
+    $(document).ajaxSend(function(event, request, settings) {
+        //$('#loading-indicator').show();
+    });
+
+    $(document).ajaxComplete(function(event, request, settings) {
+        //$('#loading-indicator').hide();
+    });
+
+    $(window).resize(function(){
+        //$(".order-container").width($(this).width()-$(".sidebar").width()-80);
+    });
+</script>

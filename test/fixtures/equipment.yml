@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sort_id: MyString
+  netx_id: MyString
+  name: MyString
+  description: MyString
+  model: MyString
+  device_type: MyString
+  price: MyString
+  list_price: MyString
+  img_url: MyString
+  default_row: MyString
+  available: MyString
+  uuid: MyString
+
+two:
+  sort_id: MyString
+  netx_id: MyString
+  name: MyString
+  description: MyString
+  model: MyString
+  device_type: MyString
+  price: MyString
+  list_price: MyString
+  img_url: MyString
+  default_row: MyString
+  available: MyString
+  uuid: MyString

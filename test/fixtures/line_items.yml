@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  number: MyString
+  first_name: MyString
+  middle_name: MyString
+  last_name: MyString
+  product_id: MyString
+  service_price: MyString
+  equipment_id: MyString
+  equipment_price: MyString
+  address_id: MyString
+  total_price_per_seat: MyString
+  order_id: MyString
+
+two:
+  number: MyString
+  first_name: MyString
+  middle_name: MyString
+  last_name: MyString
+  product_id: MyString
+  service_price: MyString
+  equipment_id: MyString
+  equipment_price: MyString
+  address_id: MyString
+  total_price_per_seat: MyString
+  order_id: MyString

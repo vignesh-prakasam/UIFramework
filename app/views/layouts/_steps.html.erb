@@ -1,45 +1,70 @@
-<div class="row-fluid">
-  <div class="span12">
-    <div class="widget-box">
-      <div class="widget-header widget-header-blue widget-header-flat">
-        <h4 class="lighter">Check for service at your location</h4>
-      </div>
+<div class="main-container container map-container" id="main-container order">
+  <script type="text/javascript">
+      try {
+          ace.settings.check('main-container', 'inside-container')
+      } catch (e) {
+      }
+  </script>
 
-      <div class="widget-body">
-        <div class="widget-main">
-          <div id="fuelux-wizard" class="row-fluid" data-target="#step-container">
+  <div class="main-container-inner order-inner">
+    <div class="main-content order-content">
 
-            <ul class="wizard-steps">
-              <li data-target="#step1" class="active">
-                <span class="step">1</span>
-                <span class="title">Service Check</span>
-              </li>
+      <div class="page-content">
+        <div class="row">
+          <div class="col-xs-12">
 
-              <li data-target="#step2">
-                <span class="step">2</span>
-                <span class="title">Service Selection</span>
-              </li>
+            <div class="row-fluid">
+              <div class="span12">
+                <div class="widget-box">
+                  <div class="widget-header widget-header-blue widget-header-flat">
+                    <h4 class="lighter">Check for service at your location</h4>
+                  </div>
 
-              <li data-target="#step3">
-                <span class="step">3</span>
-                <span class="title">Payment</span>
-              </li>
-            </ul>
+                  <div class="widget-body">
+                    <div class="widget-main">
+                      <div id="fuelux-wizard" class="row-fluid" data-target="#step-container">
 
-          </div>
+                        <ul class="wizard-steps">
+                          <li data-target="#step1" class="active">
+                            <span class="step">1</span>
+                            <span class="title">Service Check</span>
+                          </li>
 
-          <hr />
-          <div class="step-content row-fluid position-relative" id="step-container">
-            <div class="step-pane active" id="step1">
-              <%= yield %>
+                          <li data-target="#step2">
+                            <span class="step">2</span>
+                            <span class="title">Service Selection</span>
+                          </li>
+
+                          <li data-target="#step3">
+                            <span class="step">3</span>
+                            <span class="title">Payment</span>
+                          </li>
+                        </ul>
+
+                      </div>
+
+                      <hr />
+                      <div class="step-content row-fluid position-relative" id="step-container">
+                        <div class="step-pane active" id="step1">
+                          <%= render 'addresses/index' %>
+                          <%#= yield %>
+                        </div>
+                        <div class="step-pane " id="step2">
+                        </div>
+                        <div class="step-pane" id="step3">
+                        </div>
+                      </div>
+                    </div><!-- /widget-main -->
+                  </div><!-- /widget-body -->
+                </div>
+              </div>
             </div>
-            <div class="step-pane " id="step2">
-            </div>
-            <div class="step-pane" id="step3">
-            </div>
-          </div>
-        </div><!-- /widget-main -->
-      </div><!-- /widget-body -->
-    </div>
+
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
   </div>
 </div>
+
+

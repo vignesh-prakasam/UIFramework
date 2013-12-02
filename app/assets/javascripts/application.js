@@ -17,6 +17,7 @@
  = require jquery.gritter.min
  = require turbolinks
  require rails.validations
+ require rails.validations.simple_form
  = require_tree .
  = require bootstrap.min
  = require typeahead-bs2.min
@@ -26,7 +27,7 @@
  = require jquery.maskedinput.min
  = require select2.min
  = fuelux.wizard.min
- = jquery.validate.min
+ jquery.validate.min
  = additional-methods.min
  = jquery.maskedinput.min
  = select2.min
@@ -35,4 +36,13 @@
  = require jquery-ui-1.10.3.custom.min
  = require jquery.ui.touch-punch.min
  = require jquery.slimscroll.min
+ = require bootbox.min
+ = require jquery-ui-1.10.3.custom.min
+ = require jquery.ui.touch-punch.min
+ = require chosen.jquery.min
+ = require dropzone.min
+ = require jquery_ujs
+ = require flot/jquery.flot.min
+ = jquery.sparkline.min
+
  */

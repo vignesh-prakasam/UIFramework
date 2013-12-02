@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-UIFramework::Application.config.secret_key_base = 'e07781ca41fd4fe35e2a6220826de24f2d3873790bce3d66fb961373b030b2425f035b93b2352e6b9857ef2f4c40ed3e026b942d742644f1d35047b330d1ff39'
+ResellerPortal::Application.config.secret_key_base = 'dd58eefdcc91843526c0fd0b08cf97cda503be82c7ed6d08f75a82bb3169c91831e6c016a903cd512f071d8f5e939b2f7aad24936fd92c2a4b52000a016bac69'

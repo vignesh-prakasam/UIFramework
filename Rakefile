@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-UIFramework::Application.load_tasks
+ResellerPortal::Application.load_tasks

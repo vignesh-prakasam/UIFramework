@@ -5,7 +5,21 @@
  .box-shadow(none);
  margin:3px 0;
  
- border-bottom:1px solid #CCC; 
+ border-bottom:1px solid #CCC;
+  &.login{
+    width:295px;
+    margin-left: auto;
+    margin-right: auto;
+    .widget-main{
+      padding-top:0;
+    }
+    .actions{
+        margin-top:20px;
+    }
+    input{
+      margin-top: 20px;
+    }
+  }
 }
 
 @media only screen and (max-width: @screen-xs-max) {

@@ -12,6 +12,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+
+  <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0WQpJlEX7RUZGvggednbRM4VVz_6Li-Q&sensor=false"/>-->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+
   <!--[if IE 7]>
     <%= javascript_include_tag "font-awesome-ie7.min", "data-turbolinks-track" => true %>
   <![endif]-->
@@ -21,91 +25,28 @@
   <![endif]-->
 
   <!-- inline styles related to this page -->
+  <style>
+      .profile-info-name{
+          width: 185px;
+      }
+      .profile-info-value{
+          margin-left: 185px;
+      }
+  </style>
 
   <!-- ace settings handler -->
-  <%= javascript_include_tag "ace-extra.min" %>
+  <%#= javascript_include_tag "ace-extra.min" %>
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
 	<%= javascript_include_tag "html5shiv", "data-turbolinks-track" => true %>
 	<%= javascript_include_tag "respond.min", "data-turbolinks-track" => true %>
   <![endif]-->
-
 </head>
 
 <body>
-  <div class='top'>
-      <div class="navbar navbar-default" id="navbar">
-        <script type="text/javascript">
-            try {
-                ace.settings.check('navbar', 'fixed')
-            } catch (e) {
-            }
-        </script>
-        <%= render 'layouts/navbar' %>
-      </div>
 
-      <%= render 'layouts/topbar' %>
-  </div>
-
-  <%= render 'layouts/sidebar' %>
-
-  <div class="main-container container order-container" id="main-container order">
-    <script type="text/javascript">
-        try {
-            ace.settings.check('main-container', 'inside-container')
-        } catch (e) {
-        }
-    </script>
-
-    <div class="main-container-inner order-inner">
-      <div class="main-content order-content">
-
-        <div class="page-content">
-          <div class="row">
-            <div class="col-xs-12">
-              <%= render 'layouts/steps' %>
-            </div><!-- /.col -->
-          </div><!-- /.row -->
-        </div><!-- /.page-content -->
-      </div><!-- /.main-content -->
-    </div>
-  </div>
-
-
-    <!-- basic scripts -->
-    <!--[if !IE]>
-        <%= javascript_include_tag "jquery-2.0.3.min" %>
-     <![endif]-->
-
-    <!--[if IE]>
-        <%= javascript_include_tag "jquery-1.10.2.min" %>
-    <![endif]-->
-
-    <script type="text/javascript">
-        if("ontouchend" in document) document.write("<script src='assets/jquery.mobile.custom.min.js'>"+"<"+"/script>");
-    </script>
-    <!-- page specific plugin scripts -->
-
-
-  <%= render 'layouts/footer' %>
-
-
-  <script>
-    $(".main-container").width($(this).width()-$(".sidebar").width()-80);
-
-    $(document).ajaxSend(function(event, request, settings) {
-        $('#loading-indicator').show();
-    });
-
-    $(document).ajaxComplete(function(event, request, settings) {
-        $('#loading-indicator').hide();
-    });
-
-    $(window).resize(function(){
-       $(".main-container").width($(this).width()-$(".sidebar").width()-80);
-    });
-</script>
+<%= yield %>
 
 </body>
 </html>
